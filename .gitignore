@@ -1,0 +1,29 @@
+# --- Protect GISAID-derived sequence data from being committed ---
+# Raw sequences must not be redistributed (see DATA_AVAILABILITY.md).
+*.fasta
+!NCBI_SEQUENCES_FOR_REFERENCES/*.fasta          # public NCBI references are OK
+!DENGUE_DETECTIVE_RESULTS/*SEQUENCES*.fasta      # synthetic VAE sequences are OK
+df_final_dengue_dataset.csv
+Deadline_Cleaned_Valid_VAE_Samples.csv
+FINAL_DATASET/
+*_metadata*.tsv
+
+# --- Python / Jupyter ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- Saved models / large artefacts ---
+*.joblib
+*.keras
+*.h5
+ML_SAVED_MODELS/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

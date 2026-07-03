@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the thesis below."
+title: "AI-Powered Classification and Early Detection of Dengue Virus Lineages for Timely Public Health Response"
+abstract: >-
+  Machine learning and deep learning for alignment-free classification of Dengue virus
+  (DENV) genomes into lineages, and a voting-based scheme for the early detection of
+  potential new variants. Sequences are encoded with k-mer counts, Frequency Chaos Game
+  Representation (FCGR), and one-hot encoding, then classified with Random Forest,
+  XGBoost, LightGBM, hierarchical classifiers, a 1D-CNN with self-attention, and a
+  2D-CNN. A Variational Autoencoder generates synthetic genomes used to test early
+  variant detection.
+type: software
+authors:
+  - given-names: Emmanuel
+    family-names: "Nyandu Kagarabi"
+    email: emmanuelnk@aims.ac.za
+    affiliation: "African Institute for Mathematical Sciences (AIMS) South Africa; Stellenbosch University"
+date-released: "2024-11-07"
+license: MIT
+repository-code: "https://github.com/emmanuelnyandukagarabi/AI-STELLENBOSCH-AIMS-CERI-MSC-PROJECT-"
+keywords:
+  - Dengue virus
+  - genomic surveillance
+  - lineage classification
+  - machine learning
+  - deep learning
+  - k-mer
+  - FCGR
+  - variational autoencoder
+  - variant detection
+references:
+  - type: thesis
+    title: "AI-Powered Classification and Early Detection of Dengue Virus Lineages for Timely Public Health Response"
+    authors:
+      - given-names: Emmanuel
+        family-names: "Nyandu Kagarabi"
+    institution:
+      name: "African Institute for Mathematical Sciences (AIMS) South Africa & Stellenbosch University"
+    year: 2024
+    month: 11
